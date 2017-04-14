@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+			<meta charset= "UTF-8" />
+			<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+			<title> Fairhaven Fire and EMS</title>
+			<link rel="stylesheet" href="CSS/website.css">
+			
+	</head>	
+
+	<body>
+		
+	<script>
+			  window.fbAsyncInit = function() {
+			    FB.init({
+			      appId      : 'your-app-id',
+			      xfbml      : true,
+			      version    : 'v2.8'
+			    });
+			    FB.AppEvents.logPageView();
+			  };
+
+			  (function(d, s, id){
+			     var js, fjs = d.getElementsByTagName(s)[0];
+			     if (d.getElementById(id)) {return;}
+			     js = d.createElement(s); js.id = id;
+			     js.src = "//connect.facebook.net/en_US/sdk.js";
+			     fjs.parentNode.insertBefore(js, fjs);
+			   }(document, 'script', 'facebook-jssdk'));
+ </script>
+		
+		<div id="fb-root"> </div>
+		<script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+ 		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		
+		
+		<div id="wrapper">
+			
+		
+		<header> 
+			<img src="photos/banner2.png"> 
+		</header>
+		
+	
+			
+  				<ul class="taskbar">
+  				<li><a class="active" href="inside.html">Home</a></li>
+  				<li><a href="news.html">News</a></li>
+  				<li><a href="#contact">Contact</a></li>
+  				<li><a href="gallery.html">Gallery</a></li>
+  				<li><a href="#about">EMS</a></li>
+  				<li><a href="#about">About</a></li>
+  				<li><a href="#contact">Fire Permits</a></li>
+  				<li><a href="#about">Equipment</a></li>
+				</ul>
+				
+				
+				<div id="contactwrapper">
+				
+					<div class="fb-page" data-href="https://www.facebook.com/Fairhaven-Fire-EMS-214406225275977/" data-tabs="timeline" data-height="565" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+					<blockquote cite="https://www.facebook.com/Fairhaven-Fire-EMS-214406225275977/" class="fb-xfbml-parse-ignore">
+					<a href="https://www.facebook.com/Fairhaven-Fire-EMS-214406225275977/">Fairhaven Fire-EMS</a>
+					</blockquote>
+				</div>	
+			</div>
+				
+				<!-- CONTACT MENU --
+				
+			<div id="contactwrapper">
+				
+				<p class="contact"> Contact Us </p>
+				
+				
+				<ul class="contact">
+				<li class="depart"><b>Fairhaven Fire</b></li>
+				<li class="depart1"><b>& <br> EMS </b></li>
+				<br><br><img src="photos/helmet.png"> <br><br><br>
+  				<li class="email"><b>Email:ToddCorreia@Comcast.net</b></li>
+  				<li class="address"><b>146 Washington St, Fairhaven, MA 02719</b></li>
+  				<li class="address"><b>Phone:508-994-1428</b></li>
+  				<li class="emer"><b>Emergency: 911</b></li>
+  				<li class="address"><b>Hours: Mon-Fri 8:00-4:30</b></li>
+  					
+  				
+				</ul>
+		 	</div>
+			
+			
+		SLIDESHOW -->
+		<div class="slideshow-container">
+  			<div class="mySlides fade">
+    		<div class="numbertext">1 / 3</div>
+    		<img src="photos/brushfire1.png" style="width:700px height: 476px">
+    		<div class="text">Caption Text</div>
+  		</div>
+
+  		<div class="mySlides fade">
+    		<div class="numbertext">2 / 3</div>
+   			 <img src="photos/fire1.png" style="width:700px height: 476px">
+    		<div class="text">Caption Two</div>
+  		</div>
+
+		  <div class="mySlides fade">   
+		    <div class="numbertext">3 / 3</div>
+		    <img src="photos/vetday.png" style="width:700px height: 476px">
+		    <div class="text">Caption Three</div>
+		  </div>
+
+  				<a class="prev" onclick="plusSlides(-1)">
+  				<a class="next" onclick="plusSlides(1)">
+</div>
+<br>
+
+		<div style="text-align:center">
+ 				 <span class="dot" onclick="currentSlide(1)">
+ 				 <span class="dot" onclick="currentSlide(2)">
+ 				 <span class="dot" onclick="currentSlide(3)">
+		</div>
+		
+				<!-- SLIDE SHOW SCRIPT -->
+		
+		<script>
+				var slideIndex = 0;
+				showSlides();
+				
+				function showSlides() {
+				    var i;
+				    var slides = document.getElementsByClassName("mySlides");
+				    var dots = document.getElementsByClassName("dot");
+				    for (i = 0; i < slides.length; i++) {
+				       slides[i].style.display = "none";  
+				    }
+				    slideIndex++;
+				    if (slideIndex> slides.length) {slideIndex = 1;}    
+				    for (i = 0; i < dots.length; i++) {
+				        dots[i].className = dots[i].className.replace(" active", "");
+				    }
+				    slides[slideIndex-1].style.display = "block";  
+				    dots[slideIndex-1].className += " active";
+				    setTimeout(showSlides, 10000); // Change image every 2 seconds
+				}
+		</script>
+	
+				<!-- opening text -->
+				
+				
+				
+		<!-- opening text -->
+			<div id="headerwrapper">
+				<h1> Fairhaven Fire is a small department located ....psum dolor sit amet, consectetur adipiscing elit. Integer enim arcu, vulputate nec ligula ac, lacinia semper mi. Duis ultrices massa m pellentesque a</h1>
+			</div>	
+				
+				
+	
+							<!-- BEGIN MAIN CWC$*$, -->
+		
+		</div>
+		<div id="main">
+			
+					<h3> </h3>
+				
+					
+		
+		<p class="main"> Please be advised that there will be no open burning permits allowed on Tuesday April 11, 2017 in the Town of Fairhaven.<br><br>
+				MASSACHUSETTS OPEN BURNING ADVISORY FOR TUESDAY, APRIL 11, 2017<br>In accordance with Massachusetts Air Pollution Regulations 310 CMR 7.07(3)(e) 
+				and 310 CMR 7.07(3)(g), the Massachusetts Department of Environmental Protection is notifying local fire departments and Massachusetts Fire and I
+				ncident Support Unit (ISU) Response Districts that open burning permits are not to be issued on TUESDAY, APRIL 11, 2017, because air pollution levels are 
+				elevated today and are expected to stay elevated for most of the day. The predicted 
+				prevailing weather conditions will not allow for effective smoke dispersal in the area, and open burning may cause or contribute to a condition of air pollution.
+				</p>
+	
+		<p class="fair"> Town of Fairhaven Websites </p>
+		<p class="faira"> Schools</p>
+		<p class="fairb"> Town Hall </p>
+		<p class="fairc"> Police </p>
+		<a href="http://www.fairhavenps.org/">
+		<img src= "photos/schools.jpg" class="fairhaven">
+		</a>
+		<a href="http://fairhaven-ma.gov/pages/fairhavenma_webdocs/departments">
+		<img src= "photos/town.jpg" class="fairhaven">
+		</a>
+		<a href="http://fairhavenpolice.org/">
+		<img src= "photos/police.jpg" class="fairhaven">
+		</a>
+			<h4> </h4>
+		</div>
+		
+		
+		
+		
+		
+		<footer>
+			<ul class="footer">
+				<li class="footertitle"><b>Quick Links</b></li>
+				<li class="footer"><b> Home </b></li>
+  				<li class="footer"><b>Contact</b></li>
+  				<li class="footer"><b>EMS</b></li>
+  				<li class="footer"><b>Gallery</b></li>
+			</ul>
+			
+			<div id="footwrapper">
+			<ul class="addy">
+				<li class="fire"><b>Fairhaven Fire Department</b></li>
+				<li class="copywriteb"><b> 146 Washington St, <br> Fairhaven, MA 02719<br> Phone:508-994-1428<br>Fax:555-555-5555</b></li>
+  			</ul>
+			</div>
+			
+			<ul class="copywrite">
+				<li class="copywrite"><b>Copyright Chace Correia</b></li>
+				<li class="copywritea"><b> 2017 </b></li>
+  				<li class="copywritea"><b>Fairhaven Fire</b></li>
+  				<li class="copywritea"><b>& EMS</b></li>
+  				<li class="copywritea"><b>~~~chance</b></li>
+			</ul>
+			
+		</footer>
+	</body>     
+</html>
