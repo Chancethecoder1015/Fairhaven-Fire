@@ -1,0 +1,51 @@
+html { 
+  background: url("../photos/engine4.jpg") no-repeat center fixed; 
+  background-size: cover;
+}
+
+body { 
+  color: white; 
+}
+
+#h1 {
+	position: relative;
+	top: 0px;
+	float: left;
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    background-color: #a8b9ef;
+    position: fixed;
+    bottom: 35px;
+    left: 450px;
+    width: 700px;
+    right: 500px;
+    border: 3px solid #0A100D;
+    font-family: Verdana;
+    font-size: 15px;
+       
+}
+
+li {
+	
+	display: inline;
+}
+
+li a {
+	text-align: center;
+    display: inline-block;
+    color: #0D0221;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #26408B;
+}
+
+.active {
+    background-color: #970B0F;
+}
