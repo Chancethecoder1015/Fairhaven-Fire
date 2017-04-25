@@ -4,7 +4,7 @@
 			<meta charset= "UTF-8" />
 			<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 			<title> Fairhaven Fire and EMS</title>
-			<link><link rel="stylesheet" href="CSS/contact.css">
+			<link><link rel="stylesheet" href="CSS/contact1.css">
 			<script src="JS/slideshow.js"></script>
 			
 	</head>	
@@ -26,9 +26,8 @@
   				<li><a class="active" href="contact.html">Contact</a></li>
   				<li><a href="gallery.html">Gallery</a></li>
   				<li><a href="ems.html">EMS</a></li>
-  				<li><a href="#about">About</a></li>
-  				<li><a href="#contact">Fire Permits</a></li>
-  				<li><a href="#about">Equipment</a></li>
+  				<li><a href="firesaftey.html">Fire Saftey</a></li>
+  				<li><a href="fireforms.html">Department Forms</a></li>
 				</ul>
 				
 	
@@ -37,7 +36,33 @@
 				
 				
 				<h1>Contact Us</h1>
-				<img src="photos/logo.png" class="contactlogo"> 
+				<div class="container">
+				  <form action="/action_page.php">
+				
+				    <label for="fname">First Name: </label>
+				    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+					<br> <br>
+				    <label for="lname">Last Name: </label>
+				    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+				    	<br> <br> 
+				    <label for="lname">Email: </label>
+				    <input type="text" id="lname" name="lastname" placeholder="Your Email Address">
+				    	<br> <br> 
+				
+				    <label for="country">Reason for Contacting</label>
+				    <select id="country" name="country">
+				      <option value="australia">Permit</option>
+				      <option value="canada">Information</option>
+				      <option value="usa">Inquirys</option>
+				    </select>
+						<br> <br> 
+				    <label for="subject">Subject</label>
+				    <textarea id="subject" name="subject" placeholder="Your Comments..." style="height:125px"></textarea>
+				
+				    <input type="submit" value="Submit">
+				
+				  </form>
+				</div>
 				
 				
 			<div id="contactwrapper">
@@ -47,7 +72,7 @@
 				<ul class="contact">
 				<li class="email"><b>Station Contact</b></li>
 				<li class="address"><b>Office: 508-994-1428</b></li>
-  				<li class="address"><b>Email:ToddCorreia@Comcast.net</b></li>
+  				<li class="address"><div id="link"><a href="Email to:ToddCorreia@comcast.net">Email:ToddCorreia@Comcast.net</div></a></li>
   				<li class="address"><b>146 Washington St, Fairhaven, MA 02719</b></li>
   				<li class="address"><b>Emergency: 911</b></li>
   				<li class="address"><b>Hours: Mon-Fri 8:00-4:30</b></li>
@@ -56,7 +81,7 @@
 				<ul class="contacta">
 				<li class="email"><b>Administration</b></li>
 				<li class="address"><b>Chief-Email: 1234@yada.net </b></li>
-  				<li class="address"><b>Deputy-Email:ToddCorreia@Comcast.net</b></li>
+  				<li class="address">Deputy-Email:ToddCorreia@Comcast.net</a></li>
   				<li class="address"><b>EMS Director: yayayaya</b></li>
   				<li class="address"><b>Union Director: tatatata </b></li>
   				<li class="address"><b>Hours: Mon-Fri 8:00-4:30</b></li>
@@ -65,7 +90,7 @@
 		 	</div>
 		 	
 			</div>	
-	
+				
 			
 		
 		<footer>
